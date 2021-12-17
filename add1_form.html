@@ -1,0 +1,43 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>New Contact</title>
+  <link rel="stylesheet" href="css/semantic.min.css">
+</head>
+
+<body>
+
+<div style="background-color: yellow; padding: 2%;">
+	<h1>Insert New Answer Info</h1>
+	
+</div>
+<br>
+	<div class="ui text container"style="background-color:orange ">
+    	<form class="ui form" method="post" action="db/insert_teacher.php">
+      
+      <div class="field">
+        <label>teacher id</label>
+        <input type="text" name="teacher_id" placeholder="teacher id">
+      </div>
+      <div class="field">
+        <label>queston_id</label>
+        <input type="text" name="question_id" placeholder="question id">
+      </div>
+      <div class="field">
+        <label>answer</label>
+        <input type="text" name="answer" placeholder="answer">
+      </div>
+      
+      </div>
+
+      <button class="ui button" type="submit">Submit</button>
+    </form>
+</div>
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/semantic.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>New Contact</title>
+  <link rel="stylesheet" href="css/semantic.min.css">
+</head>
+
+<body>
+
+<div style="background-color:orange; padding: 2%;">
+	<h1>Insert New Question Info</h1>
+  <h>choose subject id 1 for bangla 2 for english 3 for math</h>
+	
+</div>
+<br>
+	<div class="ui text container"style="background-color: yellow">
+    	<form class="ui form" method="post" action="db/insert.php">
+      
+      <div class="field">
+        <label>student_id</label>
+        <input type="text" name="student_id" placeholder="student id">
+      </div>
+      <div class="field">
+        <label>subject_id</label>
+        <input type="text" name="subject_id" placeholder="subject id">
+      </div>
+      <div class="field">
+        <label>question</label>
+        <input type="text" name="question" placeholder="question">
+      </div>
+      
+      </div>
+
+      <button class="ui button" type="submit">Submit</button>
+    </form>
+</div>
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/semantic.min.js"></script>
+</body>
+
+</html>
